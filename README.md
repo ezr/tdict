@@ -1,6 +1,20 @@
 # tdict
 A simple offline dictionary for the terminal. 
-Just give it the word you want to look up as an argument.
+Just give it the word you want to look up as an argument. For example:
+```
+$ tdict circular
+Noun | an advertisement (usually printed on a page or in a leaflet) intended for wide distribution
+Adjective | describing a circle; moving in a circle
+SYNONYMS: Broadsheet, Rotary, Handbill, Bill, Flyer
+ANTONYMS: square
+$ tdict wanton
+Verb | behave extremely cruelly and brutally
+Noun | lewd or lascivious woman
+Verb | indulge in a carefree or voluptuous way of life
+Verb | spend wastefully
+Verb | engage in amorous play
+SYNONYMS: Loose, Motiveless, Easy, Trifle, Trifle away
+```
 
 The program expects the definition files from [here](https://github.com/tusharlock10/Dictionary/blob/master/data.7z) to be in `/usr/share/tdict/`
 
