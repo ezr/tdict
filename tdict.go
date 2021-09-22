@@ -51,7 +51,7 @@ func main() {
         os.Exit(1)
     }
     arg := strings.ToUpper(os.Args[1])
-    datadir := "/usr/share/tdict/"
+    datadir := "/usr/local/share/tdict/"
     raw, err := ioutil.ReadFile(datadir + "D" + string(arg[0]) + ".json")
     handleError(err)
     var d map[string]*json.RawMessage

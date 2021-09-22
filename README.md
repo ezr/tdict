@@ -16,7 +16,7 @@ Verb | engage in amorous play
 SYNONYMS: Loose, Motiveless, Easy, Trifle, Trifle away
 ```
 
-The program expects the definition files from [here](https://github.com/tusharlock10/Dictionary/blob/master/data.7z) to be in `/usr/share/tdict/`
+The program expects the definition files from [here](https://github.com/tusharlock10/Dictionary/blob/master/data.7z) to be in `/usr/local/share/tdict/`
 
 The directory should look like this:
 ```
